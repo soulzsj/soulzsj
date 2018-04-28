@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+{% for stu in stus %}
+    id:{{ stu.id }}
+    name:{{ stus.s_name }}
+    create_time:{{ stus.s_create_time }}
+    operate_time:{{ stus.s_create_time }}
+{% endfor %}
+
+{% for stu in stuss %}
+    age:{{ stu.stu_age }}
+    addr:{{ stu.stu_addr }}
+    tel:{{ stu.stu_tel }}
+{% endfor %}
+<br>
+</body>
+</html>
